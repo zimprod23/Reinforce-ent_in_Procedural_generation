@@ -40,7 +40,7 @@ public class ShootingAgent : Agent
       
     }
     public override void CollectObservations(VectorSensor sensor){
-      
+        
     }
 
 public override void Heuristic(in ActionBuffers actionsOut){

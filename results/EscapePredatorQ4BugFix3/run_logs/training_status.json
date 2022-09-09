@@ -1,0 +1,29 @@
+{
+    "RunFromPredator": {
+        "checkpoints": [
+            {
+                "steps": 10301,
+                "file_path": "results\\EscapePredatorQ4BugFix3\\RunFromPredator\\RunFromPredator-10301.onnx",
+                "reward": -52.189998626708984,
+                "creation_time": 1661801138.3800354,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorQ4BugFix3\\RunFromPredator\\RunFromPredator-10301.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10301,
+            "file_path": "results\\EscapePredatorQ4BugFix3\\RunFromPredator.onnx",
+            "reward": -52.189998626708984,
+            "creation_time": 1661801138.3800354,
+            "auxillary_file_paths": [
+                "results\\EscapePredatorQ4BugFix3\\RunFromPredator\\RunFromPredator-10301.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

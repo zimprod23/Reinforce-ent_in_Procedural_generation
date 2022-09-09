@@ -1,0 +1,56 @@
+{
+    "RunFromPredator": {
+        "checkpoints": [
+            {
+                "steps": 108666,
+                "file_path": "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-108666.onnx",
+                "reward": 9.448979591836734,
+                "creation_time": 1661962863.9816122,
+                "auxillary_file_paths": [
+                    "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-108666.pt"
+                ]
+            },
+            {
+                "steps": 437590,
+                "file_path": "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-437590.onnx",
+                "reward": null,
+                "creation_time": 1661964584.5446448,
+                "auxillary_file_paths": [
+                    "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-437590.pt"
+                ]
+            },
+            {
+                "steps": 499944,
+                "file_path": "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-499944.onnx",
+                "reward": -5.0,
+                "creation_time": 1661964791.144913,
+                "auxillary_file_paths": [
+                    "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-499944.pt"
+                ]
+            },
+            {
+                "steps": 564421,
+                "file_path": "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-564421.onnx",
+                "reward": -5.0,
+                "creation_time": 1661964944.898572,
+                "auxillary_file_paths": [
+                    "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-564421.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 564421,
+            "file_path": "results\\EscapeFromPredatorV1_4\\RunFromPredator.onnx",
+            "reward": -5.0,
+            "creation_time": 1661964944.898572,
+            "auxillary_file_paths": [
+                "results\\EscapeFromPredatorV1_4\\RunFromPredator\\RunFromPredator-564421.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

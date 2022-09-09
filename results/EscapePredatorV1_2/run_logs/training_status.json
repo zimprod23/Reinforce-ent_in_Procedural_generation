@@ -1,0 +1,65 @@
+{
+    "RunFromPredator": {
+        "checkpoints": [
+            {
+                "steps": 500006,
+                "file_path": "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-500006.onnx",
+                "reward": 6.9021739130434785,
+                "creation_time": 1661958750.5466952,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-500006.pt"
+                ]
+            },
+            {
+                "steps": 596367,
+                "file_path": "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-596367.onnx",
+                "reward": 9.621848739495798,
+                "creation_time": 1661959022.473441,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-596367.pt"
+                ]
+            },
+            {
+                "steps": 859966,
+                "file_path": "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-859966.onnx",
+                "reward": 6.558441558441558,
+                "creation_time": 1661959722.5496879,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-859966.pt"
+                ]
+            },
+            {
+                "steps": 870214,
+                "file_path": "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-870214.onnx",
+                "reward": null,
+                "creation_time": 1661959810.4800863,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-870214.pt"
+                ]
+            },
+            {
+                "steps": 921569,
+                "file_path": "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-921569.onnx",
+                "reward": null,
+                "creation_time": 1661960004.5196586,
+                "auxillary_file_paths": [
+                    "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-921569.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 921569,
+            "file_path": "results\\EscapePredatorV1_2\\RunFromPredator.onnx",
+            "reward": null,
+            "creation_time": 1661960004.5196586,
+            "auxillary_file_paths": [
+                "results\\EscapePredatorV1_2\\RunFromPredator\\RunFromPredator-921569.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
