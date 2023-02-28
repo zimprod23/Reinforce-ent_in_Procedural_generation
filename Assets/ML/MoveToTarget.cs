@@ -57,7 +57,7 @@ public class MoveToTarget : Agent
        child.SetActive(true);
        Butt.GetComponent<MeshRenderer>().material = originalMat;
        Butt.transform.localPosition = originalButtTransform;
-       child.transform.localPosition = new Vector3(Random.Range(3.25f,4f),child.transform.localPosition.y,Random.Range(-2f,2f));
+      child.transform.localPosition = new Vector3(Random.Range(3.25f,4f),child.transform.localPosition.y,Random.Range(-2f,2f));
     }
 
    public void OnCreateTarget(){
@@ -140,11 +140,11 @@ public override void Heuristic(in ActionBuffers actionsOut){
          foreach(Collider collider in colliderArray){
                 if(collider.transform.TryGetComponent<PressToFeed>(out PressToFeed prf)){
                      if(isOccupied){
-                        //   floorMesh.material = winMat;
+                          floorMesh.material = winMat;
                           AddReward(1.0f);
                           child.SetActive(false);
                           OnCreateTarget();
-                        // OnCreateObj();
+                         //OnCreateObj();
                      }
                 }
          }
@@ -170,13 +170,13 @@ public override void Heuristic(in ActionBuffers actionsOut){
 void OnCollisionEnter(Collision collision){
    if(collision.collider.gameObject.name == "Sphere"){
         floorMesh.material = winMat;
-        AddReward(4.5f);
+        AddReward(4f);
         target.SetActive(false);
         OnCreateObj();
         EndEpisode();
      }else if(collision.collider.gameObject.CompareTag("Wall")){
       floorMesh.material = loseMat;
-        AddReward(-1f);
+        AddReward(-4.5f);
         EndEpisode();
      }
 }

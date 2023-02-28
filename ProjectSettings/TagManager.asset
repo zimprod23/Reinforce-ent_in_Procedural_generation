@@ -12,6 +12,7 @@ TagManager:
   - MovingWall
   - Botton
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

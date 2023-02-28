@@ -6,8 +6,7 @@ using UnityEngine.AI;
 public class EnemyScript : MonoBehaviour
 {
     [SerializeField] GameObject Player;
-    [SerializeField] ParticleSystem deathParticals;
-    [SerializeField] GameObject enemy;
+    // [SerializeField] ParticleSystem deathParticals;
     public int StartingHealth = 100;
     public int Currenthealth;
     Vector3 StartingPos;
@@ -36,8 +35,8 @@ public class EnemyScript : MonoBehaviour
         }
     }
     IEnumerator Die(){
-        deathParticals.transform.position = this.transform.position;
-        deathParticals.Play();
+        // deathParticals.transform.position = this.transform.position;
+        // deathParticals.Play();
         // Destroy(this.gameObject);
         yield return new WaitForSeconds(1.5f);
         Debug.Log(message: "I died");
@@ -58,8 +57,8 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // Distance = Player.transform.localPosition - this.transform.localPosition;
-        // if(Distance.magnitude > 3)
+        Distance = Player.transform.localPosition - this.transform.localPosition;
+        if(Distance.magnitude > 3)
         agent.SetDestination(Player.transform.position);
       
     }
